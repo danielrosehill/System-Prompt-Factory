@@ -3,30 +3,26 @@
 [![Streamlit App](https://img.shields.io/badge/Streamlit-App-brightgreen)](https://streamlit.io/)
 [![Anthropic Sonnet 3.5](https://img.shields.io/badge/Anthropic%20Sonnet-3.5-blue)](https://www.anthropic.com/models)
 
+![alt text](screenshots/1.png)
+
 ## Description
 
-System Prmopt Factory is a Streamlit application designed to generate custom but general system prompts by combining different building blocks reflecting user's personalities and desired interaction styles when working with AI systems.
-
-The idea is to provide a convenient way to create first iterations of system prompts that move general purpose AI tools into slightly closer alignment with the very diverse types of humans who encounter them every day. 
-
- These building blocks represent various aspects of the user and the desired AI interaction, such as:
-
-- User Location
-- Political Views
-- Personality
-- Model Expertise
-- Model Formality
-- Model Identity
-- Model Language Style
-- Model Personalities
-- Model Response Style
-- User Communication Pace
-- User Learning Style
-- User Output Preference
-- User Personality
-- User Worldview
-
- 
+| Parameter               | Description                                                                 |
+| ----------------------- | --------------------------------------------------------------------------- |
+| User Location           | The geographic location of the user.                                        |
+| Political Views         | The political leaning of the user.                                          |
+| Personality             | The personality traits of the user.                                         |
+| Model Expertise         | The area of expertise of the model.                                         |
+| Model Formality         | The level of formality in the model's responses.                              |
+| Model Identity          | The identity or persona of the model.                                       |
+| Model Language Style    | The writing style of the model.                                             |
+| Model Personalities     | Specific personality traits of the model.                                   |
+| Model Response Style    | The style in which the model provides responses.                              |
+| User Communication Pace | The preferred pace of communication for the user.                             |
+| User Learning Style     | The user's preferred method of learning.                                    |
+| User Output Preference  | The user's preferred format for output (e.g., data format, executive summary). |
+| User Personality        | The overall personality of the user.                                        |
+| User Worldview          | The user's general perspective and beliefs about the world.                   |
 
 ## Installation
 
@@ -60,4 +56,4 @@ The idea is to provide a convenient way to create first iterations of system pro
 - `requirements.txt`: Lists the required Python packages.
 - `README.md`: This file.
 
- 
+
