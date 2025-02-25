@@ -1,0 +1,7 @@
+{
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${appName}${separator}[Branch: main]",
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
+    "python.createEnvironment.trigger": "off",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true
+}
