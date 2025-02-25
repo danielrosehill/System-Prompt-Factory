@@ -145,6 +145,9 @@ def combine_prompts(personality: str, geolocation: str, user_type: str,
                    identity_type: str = "neutral",
                    ai_name: str = None,
                    backstory: str = None,
+                   user_name: str = None,
+                   age_group: str = None,
+                   occupation: str = None,
                    target_length: int = None) -> str:
     """
     Combine selected prompts from different categories into a cohesive system prompt.
@@ -169,6 +172,9 @@ def combine_prompts(personality: str, geolocation: str, user_type: str,
     components = [
         f"You are {ai_name}. " if ai_name else "",
         backstory + "\n" if backstory else "",
+        f"The user's name is {user_name}. " if user_name else "",
+        f"The user is in the age group {age_group}. " if age_group else "",
+        f"The user's occupation is {occupation}. " if occupation else "",
         MODEL_IDENTITY.get(identity_type, "")
         if identity_type != "neutral" else "",
         MODEL_PERSONALITIES.get(personality, "") 

@@ -237,6 +237,24 @@ def main():
             format_func=lambda x: x.replace("_", " ").title()
         )
     
+        st.markdown("### User Details")
+        user_name = st.text_input(
+            "Your Name (optional)",
+            help="Enter your name",
+            placeholder="e.g., John Doe"
+        )
+        age_group = st.selectbox(
+            "Your Age Group (optional)",
+            options=["", "Under 18", "18-25", "26-35", "36-50", "51+"],
+            help="Select your age group"
+        )
+        occupation = st.text_input(
+            "Your Occupation (optional)",
+            help="Enter your occupation",
+            placeholder="e.g., Software Engineer"
+        )
+
+    
     # Add a new section for output preferences
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("""
@@ -300,6 +318,9 @@ def main():
             backstory=backstory,
             output_preference=doc_style,
             data_format=data_format,
+            user_name=user_name,
+            age_group=age_group,
+            occupation=occupation,
             target_length=target_length if target_length > 0 else None
         )
         
