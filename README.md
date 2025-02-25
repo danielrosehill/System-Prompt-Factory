@@ -1,11 +1,16 @@
 # System Prompt Factory: A Modular System Prompt Generation Utility
 
-[![Streamlit App](https://img.shields.io/badge/Streamlit-App-brightgreen)](https://streamlit.io/)
-[![Anthropic Sonnet 3.5](https://img.shields.io/badge/Anthropic%20Sonnet-3.5-blue)](https://www.anthropic.com/models)
+## Try It Out On Hugging Face Spaces!
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/danielrosehill/System-Prompt-Factory)
+
 
 ![alt text](screenshots/1.png)
 
 ## Description
+
+[![Streamlit App](https://img.shields.io/badge/Streamlit-App-brightgreen)](https://streamlit.io/)
+[![Anthropic Sonnet 3.5](https://img.shields.io/badge/Anthropic%20Sonnet-3.5-blue)](https://www.anthropic.com/models)
 
 | Parameter               | Description                                                                 |
 | ----------------------- | --------------------------------------------------------------------------- |
@@ -55,5 +60,3 @@
 - `repo_library/`: Contains programmatic versions of the prompts that can be easily combined.
 - `requirements.txt`: Lists the required Python packages.
 - `README.md`: This file.
-
-
